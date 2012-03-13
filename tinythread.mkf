@@ -1,4 +1,6 @@
 # Project file to bild thread
+# you can get sources from http://tinythread.sourceforge.net/ an unpack to
+# upstream folder
 
 packages
 {
