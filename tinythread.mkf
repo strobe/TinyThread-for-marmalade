@@ -1,0 +1,37 @@
+# Project file to bild thread
+
+packages
+{
+
+}
+
+options
+{
+	module_path_append="$MARMALADE_ROOT/modules/third_party"
+	strict=1
+	enable-exceptions=1
+}
+
+subprojects
+{
+}
+
+includepaths
+{
+	"."
+	"upstream/source"
+}
+
+defines
+{
+
+}
+
+files
+{
+	["TinyThread"]
+	("upstream/source")
+	tinythread.cpp
+	tinythread.h
+	fast_mutex.h
+}
