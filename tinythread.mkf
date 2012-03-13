@@ -10,7 +10,7 @@ packages
 options
 {
 	module_path_append="$MARMALADE_ROOT/modules/third_party"
-	strict=1
+	strict=0
 	enable-exceptions=1
 }
 
