@@ -10,6 +10,7 @@ packages
 options
 {
 	strict=0
+	enable-exceptions=1
 }
 
 subprojects
