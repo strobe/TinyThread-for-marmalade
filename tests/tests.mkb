@@ -1,0 +1,49 @@
+#!/usr/bin/env mkb
+options
+{
+	# Specify the data folder to be used
+	s3e-data-dir="data"
+}
+
+files
+{
+	Main.cpp
+}
+
+packages
+{
+
+}
+
+subprojects
+{
+	# system libs
+	iwutil
+	#iwnui
+	#iwgl
+	#iwgxfont
+    
+	(../)
+	tinythread
+}
+
+assets
+{
+
+}
+
+defines
+{
+
+}
+
+#### AUTO GENERATED deployment settings from DeployTool.exe. Do not edit below this line ####
+deployments
+{
+	["Default"]
+	android-pkgname='com.tinythreads-test'
+	embed-icf=1
+	iphone-appid='com.tinythreads-test'
+	iphone-no-splash=1
+	name='tt++test'
+}

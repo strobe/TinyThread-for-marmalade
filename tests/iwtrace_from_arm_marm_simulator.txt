@@ -1,0 +1,230 @@
+-- START TRACE TO FILE --
+tracing to: ''
+MarmaladeSDK v5.2.3 [306653] (S3E Loader v4.33.0)
+Copyright (C) 2001-2011 Ideaworks3D Ltd
+System Info:
+ OS           : WINDOWS (3)
+ OS Version   : Windows NT 4.0 (4.0)
+ Device ID    : QEMU (0x1)
+ Device Class : WINDOWS_GENERIC (3000)
+ Phone Number : 0044123456789
+ Unique ID    : SIMULATOR_ID
+ Device Name  : My Computer
+ Memory       : 1048576KiB
+29/03/12 15:36:19.859: [0x1070] DEVICE: Initialising THREAD
+29/03/12 15:36:19.860: [0x1070] THREAD: s3eThreadCreateMain
+29/03/12 15:36:19.861: [0xfa0] DEVICE: Initialising SURFACE
+29/03/12 15:36:19.863: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB565, pitch=0, ptr=0x00000000, blit=0
+29/03/12 15:36:19.875: [0xfa0] SURFACE: s3eSurfaceSetup: matches native type
+29/03/12 15:36:19.882: [0xfa0] SURFACE: s3eSurfaceSetup: no user surface needed
+29/03/12 15:36:19.885: [0xfa0] SURFACE: done s3eSurfaceInit: 176x208 p:352 (176x208 p:352) o:0
+29/03/12 15:36:19.888: [0xfa0] DEVICE: Initialising EXT
+29/03/12 15:36:19.895: [0xfa0] EXT: registering extension: s3eLibrary [0xe6dd6ce5]
+29/03/12 15:36:19.898: [0xfa0] EXT: registering extension: s3eExtLoadLibaray [0xf23d6d85]
+29/03/12 15:36:19.903: [0xfa0] EXT: registering extension: s3eCamera [0xa3e23039]
+29/03/12 15:36:19.905: [0xfa0] EXT: registering extension: s3eNDSSimulator [0x1c45e0d5]
+29/03/12 15:36:19.906: [0xfa0] EXT: registering extension: s3eWindow [0xd31aa8a8]
+29/03/12 15:36:19.908: [0xfa0] EXT: registering extension: s3eVFS [0x17f48c9f]
+29/03/12 15:36:19.910: [0xfa0] EXT: registering extension: s3eContacts [0x5e39d2af]
+29/03/12 15:36:19.911: [0xfa0] EXT: registering extension: s3eSoundRecord [0x579dbf78]
+29/03/12 15:36:19.914: [0xfa0] EXT: registering extension: s3eWebView [0x2c4bb889]
+29/03/12 15:36:19.916: [0xfa0] EXT: registering extension: s3eTouchpad [0x1dbd7ce8]
+29/03/12 15:36:19.918: [0xfa0] EXT: registering extension: s3eThread [0xcc0b4a28]
+29/03/12 15:36:19.920: [0xfa0] EXT: registering extension: s3eDebugHeap [0xc667a795]
+29/03/12 15:36:19.924: [0xfa0] EXT: registering extension: s3eExtDebugHeap [0xff96de46]
+29/03/12 15:36:19.926: [0xfa0] EXT: registering extension: s3eClipboard [0xd68f3420]
+29/03/12 15:36:19.928: [0xfa0] EXT: registering extension: s3eOSExec [0xc121bcf7]
+29/03/12 15:36:19.931: [0xfa0] EXT: registering extension: s3eExtOSExec [0x20380948]
+29/03/12 15:36:19.933: [0xfa0] EXT: registering extension: s3eEval [0x167d1038]
+29/03/12 15:36:19.934: [0xfa0] EXT: registering extension: s3eExtEval [0xf0421449]
+29/03/12 15:36:19.936: [0xfa0] EXT: registering extension: s3eHighResTimer [0x41f2dedb]
+29/03/12 15:36:19.937: [0xfa0] EXT: registering extension: s3eOSReadString [0x9fe3ea45]
+29/03/12 15:36:19.939: [0xfa0] EXT: registering extension: s3eCameraCapture [0xd36aceed]
+29/03/12 15:36:19.941: [0xfa0] EXT: registering extension: s3eTestEmulatorConfig [0x4a0d0a4f]
+29/03/12 15:36:19.943: [0xfa0] EXT: registering extension: s3eCompass [0x40d632c6]
+29/03/12 15:36:19.945: [0xfa0] EXT: registering extension: Compass [0xd3653f1b]
+29/03/12 15:36:19.947: [0xfa0] EXT: registering extension: s3eSocketOpt [0x09cdcdec]
+29/03/12 15:36:19.949: [0xfa0] EXT: registering extension: s3eExtSocketOpt [0x42fd049d]
+29/03/12 15:36:19.951: [0xfa0] EXT: registering extension: s3eImagePicker [0xd2fc1d51]
+29/03/12 15:36:19.953: [0xfa0] EXT: registering extension: s3eTest [0x168503f0]
+29/03/12 15:36:19.954: [0xfa0] EXT: registering extension: s3eSMS [0x17f480c3]
+29/03/12 15:36:19.956: [0xfa0] EXT: registering extension: s3eMetrics [0x2bc8e047]
+29/03/12 15:36:19.958: [0xfa0] EXT: registering extension: Metrics [0xbe57ec9c]
+29/03/12 15:36:19.960: [0xfa0] EXT: registering extension: s3eLocation [0x91944229]
+29/03/12 15:36:19.962: [0xfa0] EXT: registering extension: Location [0x7604d91e]
+29/03/12 15:36:19.966: [0xfa0] DEVICE: Initialising CONFIG
+29/03/12 15:36:19.968: [0xfa0] DEVICE: Initialising TIMER
+29/03/12 15:36:19.970: [0xfa0] DEVICE: Initialising COMPRESSION
+29/03/12 15:36:19.972: [0xfa0] DEVICE: DeviceInit done: services=0x0a216148
+29/03/12 15:36:19.974: [0xfa0] DEVICE: SetupPaths: NULL
+29/03/12 15:36:19.977: [0xfa0] LOADER: ParseCommandLineData [-via:"C:\Users\eugene\AppData\Local\Temp\ARMtargetdll.icf" -waitfordebugger:1]
+29/03/12 15:36:19.980: [0xfa0] LOADER: setting [commandline]  via=C:\Users\eugene\AppData\Local\Temp\ARMtargetdll.icf
+29/03/12 15:36:19.982: [0xfa0] LOADER: setting [commandline]  waitfordebugger=1
+29/03/12 15:36:19.984: [0xfa0] LOADER: parsing via file: C:\Users\eugene\AppData\Local\Temp\ARMtargetdll.icf
+29/03/12 15:36:19.986: [0xfa0] FILE: s3eFileOpen('C:\Users\eugene\AppData\Local\Temp\ARMtargetdll.icf', 'r') succeeded, id=5397248 p=0x00525b00
+29/03/12 15:36:19.988: [0xfa0] LOADER: reading 552 bytes from via files
+29/03/12 15:36:19.990: [0xfa0] LOADER: ParseCommandLineData [-via:"C:\Users\eugene\AppData\Local\Temp\ARMtargetdll.icf" -waitfordebugger:1 --dll="C:\Wuala\01_dev_works\00_marmalade\github\TinyThread\tests\build_tests_vc10\Debug_tests_VC10_gcc_arm\tests.s
+29/03/12 15:36:19.992: [0xfa0] LOADER: setting [commandline]  via=C:\Users\eugene\AppData\Local\Temp\ARMtargetdll.icf
+29/03/12 15:36:19.995: [0xfa0] LOADER: setting [commandline]  waitfordebugger=1
+29/03/12 15:36:19.997: [0xfa0] LOADER: setting [commandline]  dll=C:\Wuala\01_dev_works\00_marmalade\github\TinyThread\tests\build_tests_vc10\Debug_tests_VC10_gcc_arm\tests.s3e
+29/03/12 15:36:19.999: [0xfa0] LOADER: setting [commandline]  data=C:\Wuala\01_dev_works\00_marmalade\github\TinyThread\tests\data
+29/03/12 15:36:20.002: [0xfa0] LOADER: setting [commandline]  app-icf1=C:/Wuala/01_dev_works/00_marmalade/github/TinyThread/tests/data/app.icf
+29/03/12 15:36:20.004: [0xfa0] LOADER: setting [commandline]  config-txt1=C:/Wuala/01_dev_works/00_marmalade/github/TinyThread/tests/data/app.config.txt
+29/03/12 15:36:20.006: [0xfa0] LOADER: setting [commandline]  config-txt2=c:/marmalade/5.2/s3e/s3e.config.txt
+29/03/12 15:36:20.008: [0xfa0] LOADER: setting [commandline]  config-txt3=c:/marmalade/5.2/modules/iwutil/docs/iwutil.config.txt
+29/03/12 15:36:20.010: [0xfa0] LOADER: setting [commandline]  config-txt4=c:/marmalade/5.2/s3e\s3e.config.txt
+29/03/12 15:36:20.012: [0xfa0] FILE: new filesystem: drive=0 type=0 ro=1 name=rom://
+29/03/12 15:36:20.014: [0xfa0] FILE: fs[00]: system[rom://] 'C:\Wuala\01_dev_works\00_marmalade\github\TinyThread\tests\data'
+29/03/12 15:36:20.016: [0xfa0] FILE: fs[03]: system[raw://] ''
+29/03/12 15:36:20.018: [0xfa0] FILE: listed 2 active filesystems
+29/03/12 15:36:20.020: [0xfa0] FILE: new filesystem: drive=1 type=0 ro=0 name=ram://
+29/03/12 15:36:20.022: [0xfa0] FILE: fs[00]: system[rom://] 'C:\Wuala\01_dev_works\00_marmalade\github\TinyThread\tests\data'
+29/03/12 15:36:20.024: [0xfa0] FILE: fs[01]: system[ram://] 'C:\Wuala\01_dev_works\00_marmalade\github\TinyThread\tests\data-ram'
+29/03/12 15:36:20.026: [0xfa0] FILE: fs[03]: system[raw://] ''
+29/03/12 15:36:20.030: [0xfa0] FILE: listed 3 active filesystems
+29/03/12 15:36:20.037: [0xfa0] FILE: new filesystem: drive=0 type=0 ro=1 name=rom://
+29/03/12 15:36:20.039: [0xfa0] FILE: new filesystem: drive=1 type=0 ro=0 name=ram://
+29/03/12 15:36:20.041: [0xfa0] LOADER: Using data directory C:\Wuala\01_dev_works\00_marmalade\github\TinyThread\tests\data as ROM drive
+29/03/12 15:36:20.098: [0xfa0] LOADER: Using directory C:\Wuala\01_dev_works\00_marmalade\github\TinyThread\tests\data-ram as RAM drive
+29/03/12 15:36:20.104: [0xfa0] FILE: s3eFileOpen('raw://C:/Wuala/01_dev_works/00_marmalade/github/TinyThread/tests/data/app.config.txt', 'r') succeeded, id=1000 p=0x0052717c
+29/03/12 15:36:20.107: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/5.2/s3e/s3e.config.txt', 'r') succeeded, id=1001 p=0x00527298
+29/03/12 15:36:20.159: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/5.2/modules/iwutil/docs/iwutil.config.txt', 'r') succeeded, id=1002 p=0x005273b4
+29/03/12 15:36:20.191: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/5.2/s3e\s3e.config.txt', 'r') succeeded, id=1003 p=0x005274d0
+29/03/12 15:36:20.201: [0xfa0] LOADER: s3eExecReadConfigFromS3EFiles()
+29/03/12 15:36:20.208: [0xfa0] FILE: s3eFileOpen('raw://c:\marmalade\5.2\s3e/s3e.icf', 'rb') succeeded, id=1004 p=0x005275ec
+29/03/12 15:36:20.210: [0xfa0] LOADER: Loading config from: c:\marmalade\5.2\s3e/s3e.icf
+29/03/12 15:36:20.214: [0xfa0] LOADER: Loading app-icf from command line specified location C:/Wuala/01_dev_works/00_marmalade/github/TinyThread/tests/data/app.icf
+29/03/12 15:36:20.216: [0xfa0] FILE: s3eFileOpen('raw://C:/Wuala/01_dev_works/00_marmalade/github/TinyThread/tests/data/app.icf', 'rb') succeeded, id=1005 p=0x00527708
+29/03/12 15:36:20.219: [0xfa0] LOADER: Loading config from: raw://C:/Wuala/01_dev_works/00_marmalade/github/TinyThread/tests/data/app.icf
+29/03/12 15:36:20.221: [0xfa0] LOADER: ParseCommandLineData [-via:"C:\Users\eugene\AppData\Local\Temp\ARMtargetdll.icf" -waitfordebugger:1]
+29/03/12 15:36:20.232: [0xfa0] LOADER: setting [commandline]  via=C:\Users\eugene\AppData\Local\Temp\ARMtargetdll.icf
+29/03/12 15:36:20.242: [0xfa0] LOADER: setting [commandline]  waitfordebugger=1
+29/03/12 15:36:20.248: [0xfa0] LOADER: parsing via file: C:\Users\eugene\AppData\Local\Temp\ARMtargetdll.icf
+29/03/12 15:36:20.257: [0xfa0] FILE: s3eFileOpen('C:\Users\eugene\AppData\Local\Temp\ARMtargetdll.icf', 'r') succeeded, id=1006 p=0x00527824
+29/03/12 15:36:20.260: [0xfa0] LOADER: reading 552 bytes from via files
+29/03/12 15:36:20.265: [0xfa0] LOADER: ParseCommandLineData [-via:"C:\Users\eugene\AppData\Local\Temp\ARMtargetdll.icf" -waitfordebugger:1 --dll="C:\Wuala\01_dev_works\00_marmalade\github\TinyThread\tests\build_tests_vc10\Debug_tests_VC10_gcc_arm\tests.s
+29/03/12 15:36:20.266: [0xfa0] LOADER: setting [commandline]  via=C:\Users\eugene\AppData\Local\Temp\ARMtargetdll.icf
+29/03/12 15:36:20.268: [0xfa0] LOADER: setting [commandline]  waitfordebugger=1
+29/03/12 15:36:20.270: [0xfa0] LOADER: setting [commandline]  dll=C:\Wuala\01_dev_works\00_marmalade\github\TinyThread\tests\build_tests_vc10\Debug_tests_VC10_gcc_arm\tests.s3e
+29/03/12 15:36:20.272: [0xfa0] LOADER: setting [commandline]  data=C:\Wuala\01_dev_works\00_marmalade\github\TinyThread\tests\data
+29/03/12 15:36:20.273: [0xfa0] LOADER: setting [commandline]  app-icf1=C:/Wuala/01_dev_works/00_marmalade/github/TinyThread/tests/data/app.icf
+29/03/12 15:36:20.275: [0xfa0] LOADER: setting [commandline]  config-txt1=C:/Wuala/01_dev_works/00_marmalade/github/TinyThread/tests/data/app.config.txt
+29/03/12 15:36:20.276: [0xfa0] LOADER: setting [commandline]  config-txt2=c:/marmalade/5.2/s3e/s3e.config.txt
+29/03/12 15:36:20.278: [0xfa0] LOADER: setting [commandline]  config-txt3=c:/marmalade/5.2/modules/iwutil/docs/iwutil.config.txt
+29/03/12 15:36:20.282: [0xfa0] LOADER: setting [commandline]  config-txt4=c:/marmalade/5.2/s3e\s3e.config.txt
+29/03/12 15:36:20.284: [0xfa0] LOADER: s3eExecMemoryCheck: Memory free: 1048576K
+29/03/12 15:36:20.287: [0xfa0] EXT: s3eExtGetHash: 0xd31aa8a8 [0x00000000 size=0]
+29/03/12 15:36:20.290: [0xfa0] EXT: initializing extension: s3eWindow
+29/03/12 15:36:20.292: [0xfa0] EXT: initializing extension: s3eWindow 0x004d4710
+29/03/12 15:36:20.622: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB565, pitch=0, ptr=0x00000000, blit=0
+29/03/12 15:36:20.641: [0xfa0] SURFACE: s3eSurfaceSetup: matches native type
+29/03/12 15:36:20.644: [0xfa0] SURFACE: s3eSurfaceSetup: no user surface needed
+29/03/12 15:36:20.663: [0xfa0] EXT: Registering user-supplied extensions
+29/03/12 15:36:20.672: [0xfa0] LOADER: Calling s3eDeviceInit()
+29/03/12 15:36:20.675: [0xfa0] DEVICE: DeviceInit: services=0xfffdffff [0xe7dc9eb7]
+29/03/12 15:36:20.677: [0xfa0] DEVICE: Initialising CALLBACKS
+29/03/12 15:36:20.680: [0xfa0] DEVICE: Initialising CRYPTO
+29/03/12 15:36:20.683: [0xfa0] DEVICE: Initialising ERROR
+29/03/12 15:36:20.686: [0xfa0] DEVICE: Initialising SOCKET
+29/03/12 15:36:20.689: [0xfa0] DEVICE: Initialising STORAGE
+29/03/12 15:36:20.691: [0xfa0] DEVICE: Initialising VIBRA
+29/03/12 15:36:20.693: [0xfa0] DEVICE: Initialising KEYBOARD
+29/03/12 15:36:20.732: [0xfa0] KEYBOARD: keyboard->SetDataFormat() succeeded in init().
+29/03/12 15:36:20.742: [0xfa0] DEVICE: Initialising POINTER
+29/03/12 15:36:20.750: [0xfa0] DEVICE: Initialising ACCELEROMETER
+29/03/12 15:36:20.752: [0xfa0] ACCELEROMETER: damping=0 scaling=0
+29/03/12 15:36:20.755: [0xfa0] DEVICE: Initialising SOUND
+29/03/12 15:36:21.063: [0xfa0] SOUND: stereo sound enabled
+29/03/12 15:36:21.068: [0xfa0] SOUND: s3eSoundStop: started=0
+29/03/12 15:36:21.072: [0xfa0] SOUND: SetMasterVolume: 255 -> 256
+29/03/12 15:36:21.076: [0xfa0] DEVICE: Initialising AUDIO
+29/03/12 15:36:21.080: [0xfa0] DEVICE: Initialising VIDEO
+29/03/12 15:36:21.082: [0xfa0] DEVICE: Initialising LICENSE
+29/03/12 15:36:21.084: [0xfa0] DEVICE: Initialising GL
+29/03/12 15:36:21.086: [0xfa0] DEVICE: DeviceInit done: services=0xfffdffff
+29/03/12 15:36:21.089: [0xfa0] LOADER: displaying debug splash-screen
+29/03/12 15:36:21.426: [0xfa0] DEVICE: s3eQemuInit
+29/03/12 15:36:21.452: [0xfa0] DEFAULT: done vm_start
+29/03/12 15:36:21.469: [0xfa0] DEFAULT: CPU Loop done
+29/03/12 15:36:21.481: [0xfa0] DEFAULT: done s3eQEMUInit
+29/03/12 15:36:21.499: [0xfa0] LOADER: s3eExecInit Done
+29/03/12 15:36:21.606: [0xfa0] LOADER: found initial S3E file: raw://C:\Wuala\01_dev_works\00_marmalade\github\TinyThread\tests\build_tests_vc10\Debug_tests_VC10_gcc_arm\tests.s3e
+29/03/12 15:36:21.609: [0xfa0] DEVICE: s3eExecPushNext: raw://C:\Wuala\01_dev_works\00_marmalade\github\TinyThread\tests\build_tests_vc10\Debug_tests_VC10_gcc_arm\tests.s3e [root=NULL 0x00000000 0x00000000]
+29/03/12 15:36:21.612: [0xfa0] DEVICE: s3eExecPushNext: raw://C:\Wuala\01_dev_works\00_marmalade\github\TinyThread\tests\build_tests_vc10\Debug_tests_VC10_gcc_arm\tests.s3e
+29/03/12 15:36:21.614: [0xfa0] LOADER: s3eExecDoExecuteLoop
+29/03/12 15:36:21.616: [0xfa0] LOADER: s3eExecLoad: C:\Wuala\01_dev_works\00_marmalade\github\TinyThread\tests\build_tests_vc10\Debug_tests_VC10_gcc_arm\tests.s3e
+29/03/12 15:36:21.619: [0xfa0] FILE: s3eFileOpen('C:\Wuala\01_dev_works\00_marmalade\github\TinyThread\tests\build_tests_vc10\Debug_tests_VC10_gcc_arm\tests.s3e', 'rb') succeeded, id=1007 p=0x00527940
+29/03/12 15:36:21.621: [0xfa0] LOADER: Loading S3E: C:\Wuala\01_dev_works\00_marmalade\github\TinyThread\tests\build_tests_vc10\Debug_tests_VC10_gcc_arm\tests.s3e
+29/03/12 15:36:21.624: [0xfa0] LOADER: Reading S3E headers [64]
+29/03/12 15:36:21.638: [0xfa0] LOADER: No background colour specified
+29/03/12 15:36:21.653: [0xfa0] LOADER: No game splash screen to display
+29/03/12 15:36:21.667: [0xfa0] LOADER: S3E Version    : 4.33.0
+29/03/12 15:36:21.672: [0xfa0] LOADER: Arch           : ARM6Z
+29/03/12 15:36:21.674: [0xfa0] LOADER: VFP            : 1
+29/03/12 15:36:21.676: [0xfa0] LOADER: App S3E Version: 4.33.0
+29/03/12 15:36:21.679: [0xfa0] LOADER: App arch       : ARM4T
+29/03/12 15:36:21.681: [0xfa0] LOADER: App VFP        : 0
+29/03/12 15:36:21.717: [0xfa0] LOADER: Reading code section: len=142432
+29/03/12 15:36:21.803: [0xfa0] LOADER: Signature checking NOT enabled in loader
+29/03/12 15:36:21.813: [0xfa0] LOADER: Relocating S3E
+29/03/12 15:36:21.822: [0xfa0] LOADER: 1759 internal relocations [base_address = 0x4a000000 data_offset = 0x22770]
+29/03/12 15:36:21.829: [0xfa0] LOADER: 0 ARM external relocations
+29/03/12 15:36:21.831: [0xfa0] LOADER: 45 ARM ABS external relocations
+29/03/12 15:36:21.834: [0xfa0] LOADER: Protecting code section: 0x4a000000 139264
+29/03/12 15:36:21.837: [0xfa0] LOADER: Loaded S3E at address 0x4a000000
+29/03/12 15:36:23.641: [0xfa0] LOADER: Calling s3eDeviceInit(S3E_DEVICE_INIT_MEMORY)
+29/03/12 15:36:23.644: [0xfa0] DEVICE: DeviceInit: services=0x00020000 [0x00020000]
+29/03/12 15:36:23.647: [0xfa0] DEVICE: Initialising MEMORY
+29/03/12 15:36:23.650: [0xfa0] MEMORY: Loader heap size=30000
+29/03/12 15:36:23.662: [0xfa0] MEMORY: using default size (3145728) for heap0 (set MemSize in your game.icf to override this)
+29/03/12 15:36:23.668: [0xfa0] MEMORY: Initialised heap 0 [0x0b091c64-0x0b391c64] size=3145728
+29/03/12 15:36:23.671: [0xfa0] MEMORY: Initialised heap 7 [0x06fb1464-0x06fbdc64] size=51200
+29/03/12 15:36:23.674: [0xfa0] MEMORY: s3eMemorySetUserMemMgr 0x0044a3a0 0x0044a6e0 0x0044aea0
+29/03/12 15:36:23.677: [0xfa0] DEVICE: DeviceInit done: services=0x00020000
+29/03/12 15:36:23.690: [0xfa0] LOADER: Executing S3E 0x02908fd0 [C:\Wuala\01_dev_works\00_marmalade\github\TinyThread\tests\build_tests_vc10\Debug_tests_VC10_gcc_arm\tests.s3e] entry=0x0afc102a
+_IwMain
+29/03/12 15:36:25.201: [0xfa0] EXT: s3eExtGetHash: 0xcc0b4a28 [0x4a025bbc size=76]
+29/03/12 15:36:25.204: [0xfa0] EXT: initializing extension: s3eThread
+29/03/12 15:36:25.206: [0xfa0] EXT: initializing extension: s3eThread 0x0046e8b0
+29/03/12 15:36:25.212: [0xfa0] MEMORY: s3eMemorySetUserMemMgr 0x0afc1069 0x0afc107e 0x0afc1093
+29/03/12 15:36:26.996: [0xfa0] IWCRT: pthread_create sp=0x0 ss=32768 detach=0
+29/03/12 15:36:27.001: [0xfa0] THREAD: Thread 0x00000fa1 created [internal=0x007c9230] ss=32768 sp=0x00000000
+29/03/12 15:36:27.004: [0xfa1] MEMORY: s3eMemorySetUserMemMgr 0x0044a3a0 0x0044a6e0 0x0044aea0
+29/03/12 15:36:27.011: [0xfa1] THREAD: running new thread directly
+29/03/12 15:36:27.016: [0xfa1] TINYTHREADS: child thread got data: 52.213300
+29/03/12 15:36:27.021: [0xfa1] TINYTHREADS: child thread got data: 43.232300
+29/03/12 15:36:27.024: [0xfa1] MEMORY: s3eMemorySetUserMemMgr 0x0afc1069 0x0afc107e 0x0afc1093
+29/03/12 15:36:27.027: [0xfa1] THREAD: calling thread cleanup handler [inloader=1 havelock=0]
+29/03/12 15:36:27.031: [0xfa1] IWCRT: pthread_tlsclear: 0xfa1
+29/03/12 15:36:27.039: [0xfa1] IWCRT: calling cleanup handler for key 0x6fb1800
+29/03/12 15:36:27.042: [0xfa1] THREAD: done thread cleanup handler
+29/03/12 15:36:27.045: [0xfa1] THREAD: Thread 0x00000fa1 has finished [real=0x007c9230 threadcount=2 detached=0]
+29/03/12 15:36:27.048: [0xfa0] THREAD: s3eThreadCancelAll
+29/03/12 15:36:27.050: [0xfa0] THREAD: done s3eThreadCancelAll
+29/03/12 15:36:27.052: [0xfa0] THREAD: all threads now dead (current=0x00000fa0)
+29/03/12 15:36:27.055: [0xfa0] LOADER: Application has exited, starting cleanup
+29/03/12 15:36:27.057: [0xfa0] LOADER: Done execute S3E 0x02908fd0 [rtn=0]
+29/03/12 15:36:27.060: [0xfa0] SOUND: s3eSoundStop: started=0
+29/03/12 15:36:27.062: [0xfa0] LOADER: Unloading S3E 0x02908fd0 [C:\Wuala\01_dev_works\00_marmalade\github\TinyThread\tests\build_tests_vc10\Debug_tests_VC10_gcc_arm\tests.s3e]
+29/03/12 15:36:27.065: [0xfa0] DEVICE: Terminating LICENSE
+29/03/12 15:36:27.068: [0xfa0] DEVICE: Terminating VIDEO
+29/03/12 15:36:27.071: [0xfa0] DEVICE: Terminating AUDIO
+29/03/12 15:36:27.073: [0xfa0] DEVICE: Terminating SOUND
+29/03/12 15:36:27.122: [0xfa0] DEVICE: Terminating POINTER
+29/03/12 15:36:27.125: [0xfa0] DEVICE: Terminating ACCELEROMETER
+29/03/12 15:36:27.128: [0xfa0] DEVICE: Terminating KEYBOARD
+29/03/12 15:36:27.131: [0xfa0] DEVICE: Terminating GL
+29/03/12 15:36:27.133: [0xfa0] DEVICE: Terminating VIBRA
+29/03/12 15:36:27.136: [0xfa0] DEVICE: Terminating TIMER
+29/03/12 15:36:27.139: [0xfa0] DEVICE: Terminating STORAGE
+29/03/12 15:36:27.141: [0xfa0] DEVICE: Terminating SOCKET
+29/03/12 15:36:27.154: [0xfa0] DEVICE: Terminating CONFIG
+29/03/12 15:36:27.157: [0xfa0] DEVICE: Terminating ERROR
+29/03/12 15:36:27.159: [0xfa0] DEVICE: Terminating MEMORY
+29/03/12 15:36:27.162: [0xfa0] DEVICE: Terminating CRYPTO
+29/03/12 15:36:27.164: [0xfa0] DEVICE: Terminating EXT
+29/03/12 15:36:27.166: [0xfa0] EXT: terminating extension: s3eWindow
+29/03/12 15:36:27.168: [0xfa0] EXT: terminating extension: s3eThread
+29/03/12 15:36:27.170: [0xfa0] DEVICE: Terminating SURFACE
+29/03/12 15:36:27.195: [0xfa0] DEVICE: Terminating DEBUG
+-- END TRACE --
